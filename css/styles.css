@@ -1,14 +1,62 @@
-* {
+body {
+  background-color: bisque;
 
-background-color: rgb(169, 236, 236);
-
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .center {
+  text-align: center;
+}
 
+.link-container {
+  background-color: antiquewhite;
 
-text-align: center;
+  height: 659px;
+  width: 600px;
+  margin: auto;
+  padding: 8px;
+}
 
+button {
+  background: #c5d2d3;
+  border: 2px solid #000000;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.pelmeni {
+  background: rgb(223, 209, 191);
+  font-size: 16px;
+  padding: 80px;
+  height: 90px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pierogi {
+  background: rgb(216, 199, 176);
+  font-size: 16px;
+  padding: 80px;
+  height: 90px;;
+  padding-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.empanadas {
+  background:rgb(226, 220, 211);
+  font-size: 16px;
+  padding: 80px;
+  height: 90px;
+  padding-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+  text-align: center;
 }
